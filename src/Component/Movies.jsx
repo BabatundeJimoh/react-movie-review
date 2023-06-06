@@ -25,7 +25,7 @@ class Movies extends Component {
   fetchMovies = async () => {
     try {
       const response = await axios.get(
-        "https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=godfather&api-key=paENCGu6KsE0c7NwMdbzAsuwEnWxPaoV"
+        "https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=godfather&api-key=5lxLQcOAXQDPmylMT3tQ3mytXCEGACNi"
       );
 
       const data = await response.data.results;
